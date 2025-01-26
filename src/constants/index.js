@@ -28,6 +28,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    cost_of_living,
+    edge_icon,
+    connect_4,
+    crypto_tracker
   } from "../assets";
   
   export const navLinks = [
@@ -195,67 +199,66 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cost of Living Comparison 💷",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This project is a cost of living comparison web app that lets users input and compare expenses for two cities. It's built with HTML, CSS, and JavaScript for the frontend, and Python (Flask) for the backend, featuring responsive tables and an appealing design.",
       tags: [
         {
-          name: "react",
+          name: "Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "HTML & CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: cost_of_living,
       source_code_link: "https://github.com/",
+      web_link: "https://cost-of-living-project-2.vercel.app"
     },
     {
-      name: "Job IT",
+      name: "Connect 4 🕹️",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This project is a Connect 4 game where players take turns dropping pieces to connect four in a row. Built with HTML, CSS, and JavaScript, it features a dynamically generated board, winner checks, and result announcements, showcasing web development and game logic skills.",
       tags: [
         {
-          name: "react",
+          name: "HTML & CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: connect_4,
+      source_code_link: "https://github.com/HakimM16/connect-4",
+      web_link: "https://connect-4-9ehl.vercel.app"
     },
     {
-      name: "Trip Guide",
+      name: "Crypto Tracker 🪙",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Crypto Tracker App is a React.js web application that allows users to monitor real-time cryptocurrency prices, analyze trends with interactive charts, and access key crypto information. It uses Axios to fetch live and historical data from the CryptoCompare API, with visualizations powered by Chart.js or Recharts. The app features modern responsive styling through Tailwind CSS or Material-UI, catering to cryptocurrency enthusiasts for informed decision-making.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CryptoCompare API",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: crypto_tracker,
+      source_code_link: "https://github.com/HakimM16/crypto-tracker",
+      web_link: "https://crypto-tracker-tau-ten.vercel.app"
     },
   ];
   

@@ -34,6 +34,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cost_of_living from "./cost_of_living.png";
+import edge_icon from "./edge_icon.png";
+import connect_4 from "./connect_4.png";
+import crypto_tracker from "./crypto_tracker.png";
 
 export {
   backend,
@@ -68,5 +72,9 @@ export {
   java,
   nextjs,
   python,
-  springboot
+  springboot,
+  cost_of_living,
+  edge_icon,
+  connect_4,
+  crypto_tracker
 };
