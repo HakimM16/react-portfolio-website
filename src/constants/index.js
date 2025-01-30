@@ -217,7 +217,7 @@ import {
         },
       ],
       image: cost_of_living,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/HakimM16/Cost-of-living-project-2",
       web_link: "https://cost-of-living-project-2.vercel.app"
     },
     {
