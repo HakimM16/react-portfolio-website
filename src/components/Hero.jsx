@@ -1,9 +1,27 @@
 import { motion } from 'framer-motion';
-
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { useState, useEffect } from 'react';
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check screen width
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Check on mount
+    checkMobile();
+
+    // Add event listener to check on resize
+    window.addEventListener('resize', checkMobile);
+
+    // Cleanup
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px]
@@ -20,7 +38,9 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      
+      {/* Conditional rendering for ComputersCanvas */}
+      {!isMobile && <ComputersCanvas />}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -43,4 +63,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
