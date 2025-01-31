@@ -32,7 +32,7 @@ import {
     edge_icon,
     connect_4,
     crypto_tracker
-  } from "../assets";
+  } from "../assets/index";
   
   export const navLinks = [
     {
