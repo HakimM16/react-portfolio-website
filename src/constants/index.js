@@ -58,10 +58,6 @@ import {
       title: "React Developer",
       icon: mobile,
     },
-    {
-      title: "Fullstack Developer",
-      icon: backend,
-    },
   ];
   
   const technologies = [
@@ -88,10 +84,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
