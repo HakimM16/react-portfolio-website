@@ -31,7 +31,8 @@ import {
     cost_of_living,
     edge_icon,
     connect_4,
-    crypto_tracker
+    crypto_tracker,
+    linkedin,
   } from "../assets";
   
   export const navLinks = [
