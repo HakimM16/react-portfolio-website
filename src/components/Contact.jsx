@@ -1,16 +1,14 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { linkedin } from "../assets";
-import { Contact } from ".";
 
-
-  return (
+const Contact = () => {  // Define Contact as a functional component
+  return ( // The return is now INSIDE the function
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
@@ -32,6 +30,7 @@ import { Contact } from ".";
         <EarthCanvas />
       </motion.div>
     </div>
-  )
+  );
+};
 
 export default Contact;
