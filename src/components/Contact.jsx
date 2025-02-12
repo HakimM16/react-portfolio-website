@@ -9,61 +9,6 @@ import { slideIn } from "../utils/motion";
 import { linkedin } from "../assets";
 
 
-
-const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const [loading, setLoading] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    setForm({...form, [name]: value })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-
-    // QmVUrm57rqN2UQt8C
-    // template_pjxm624
-    // service_1cwyzhw
-
-    emailjs.send(
-      'service_1cwyzhw', 
-      'template_pjxm624',
-      {
-        from_name: form.name,
-        to_name: 'Hakim',
-        from_email: form.email,
-        to_email: 'hakimmabike@gmail.com',
-        message: form.message,
-      },
-      'QmVUrm57rqN2UQt8C'
-    )
-    .then(() => {
-      setLoading(false);
-      alert('Thank you. I will get back to you as soon as possible.');
-
-      setForm({
-        name: '',
-        email: '',
-        message: '',
-      })
-    }, (error) => {
-      setLoading(false)
-
-      console.log(error);
-
-      alert('Something went wrong.');
-    })
-  }
-
   return (
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
