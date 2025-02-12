@@ -9,10 +9,10 @@ import { linkedin } from "../assets";
 
 const Contact = () => {  // Define Contact as a functional component
   return ( // The return is now INSIDE the function
-    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
+    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden justify-center ml-4">
       <motion.div
         variants={slideIn('left', "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-[0.75] bg-black-100 p-8 pb-[-4px] rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
