@@ -33,6 +33,7 @@ import {
     connect_4,
     crypto_tracker,
     linkedin,
+    gemini_clone,
   } from "../assets";
   
   export const navLinks = [
@@ -253,6 +254,28 @@ import {
       source_code_link: "https://github.com/HakimM16/crypto-tracker",
       web_link: "https://crypto-tracker-tau-ten.vercel.app"
     },
+    {
+      name: "Gemini Clone 🌠",
+      description:
+        "This is a Google Gemini clone in a dark mode layout built with react.js, tailwind css and Gemini API. It produces basic text with bullet points and italics. ",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gemini API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gemini_clone,
+      source_code_link: "https://github.com/HakimM16/gemini_app",
+      web_link: "https://gemini-clone-coral-sigma.vercel.app"
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

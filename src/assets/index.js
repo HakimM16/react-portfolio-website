@@ -39,6 +39,7 @@ import edge_icon from "./edge_icon.png";
 import connect_4 from "./connect_4.png";
 import crypto_tracker from "./crypto_tracker.png";
 import linkedin from "./linkedin.jpg";
+import gemini_clone from "./gemini_clone.png";
 
 export {
   backend,
@@ -79,4 +80,5 @@ export {
   connect_4,
   crypto_tracker,
   linkedin,
+  gemini_clone
 };
