@@ -38,7 +38,7 @@ import cost_of_living from "./cost_of_living.png";
 import edge_icon from "./edge_icon.png";
 import connect_4 from "./connect_4.png";
 import crypto_tracker from "./crypto_tracker.png";
-import linkedin from "./linkedin.jpg";
+import linkedin from "./Linkedin.jpg";
 import gemini_clone from "./gemini_clone.png";
 
 export {
