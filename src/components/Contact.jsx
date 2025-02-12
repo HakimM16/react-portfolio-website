@@ -7,6 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { linkedin } from "../assets";
+import { Contact } from ".";
 
 
   return (
@@ -32,6 +33,5 @@ import { linkedin } from "../assets";
       </motion.div>
     </div>
   )
-}
 
-export default SectionWrapper(Contact, "contact")
+export default Contact;
