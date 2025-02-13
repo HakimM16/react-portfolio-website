@@ -33,4 +33,4 @@ const Contact = () => {  // Define Contact as a functional component
   );
 };
 
-export default Contact;
+export default SectionWrapper(Contact, "contact");
