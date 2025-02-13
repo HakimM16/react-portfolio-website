@@ -38,12 +38,13 @@ const About = () => {
         I remain open to innovative projects and collaborations that challenge and enhance my skills. 
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      {/* Comment this out for now as you don't any professions yet */}
+      {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
 
-      </div>
+      </div> */}
     </>
   )
 }
