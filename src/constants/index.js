@@ -195,7 +195,7 @@ import {
     {
       name: "Cost of Living Comparison 💷",
       description:
-        "This project is a cost of living comparison web app that lets users input and compare expenses for two cities. It's built with HTML, CSS, and JavaScript for the frontend, and Python (Flask) for the backend, featuring responsive tables and an appealing design.",
+        "This project is a cost of living comparison web app that lets users input and compare expenses for two cities. It's built with HTML, CSS, and JavaScript for the frontend, and Python (Flask) for the backend, featuring responsive tables and an appealing design. Data for chosen city to compare against is generated from OpenAI",
       tags: [
         {
           name: "Flask",
@@ -235,7 +235,7 @@ import {
     {
       name: "Crypto Tracker 🪙",
       description:
-        "The Crypto Tracker App is a React.js web application that allows users to monitor real-time cryptocurrency prices, analyze trends with interactive charts, and access key crypto information. It uses Axios to fetch live and historical data from the CryptoCompare API, with visualizations powered by Chart.js or Recharts. The app features modern responsive styling through Tailwind CSS or Material-UI, catering to cryptocurrency enthusiasts for informed decision-making.",
+        "The Crypto Tracker App is a web application built with React.js that enables users to monitor real-time cryptocurrency prices. Users can navigate through various categories, including market cap, price changes, and 24-hour changes. It utilizes Axios to fetch live and historical data from the CryptoCompare API, while visualizations are created using Chart.js or Recharts. The app features modern, responsive styling with Tailwind CSS or Material-UI, making it a valuable tool for cryptocurrency enthusiasts looking to make informed decisions.",
       tags: [
         {
           name: "reactjs",
