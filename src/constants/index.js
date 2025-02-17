@@ -106,6 +106,10 @@ import {
     {
       name: "SpringBoot",
       icon: springboot,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
     }
   ];
   
