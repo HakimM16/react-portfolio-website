@@ -1,3 +1,4 @@
+import { image } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -34,6 +35,7 @@ import {
     crypto_tracker,
     linkedin,
     gemini_clone,
+    personal_finance
   } from "../assets";
   
   export const navLinks = [
@@ -279,6 +281,23 @@ import {
       image: gemini_clone,
       source_code_link: "https://github.com/HakimM16/gemini_app",
       web_link: "https://gemini-clone-coral-sigma.vercel.app"
+    },
+    {
+      name: "Personal Finance Chatbot 💰",
+      description: "This chatbot serves as a personal finance advisor, providing financial advice based on your questions. The application is built using Next.js for the frontend and retrieves responses to prompts via the OpenAI API.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenAI API",
+          color: "green-text-gradient",
+        }
+      ],
+      image: personal_finance,
+      source_code_link: "https://github.com/HakimM16/finance-advisor-chatbot",
+      web_link: "https://finance-advisor-chatbot.vercel.app"
     }
   ];
   
