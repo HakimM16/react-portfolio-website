@@ -261,28 +261,6 @@ import {
       web_link: "https://crypto-tracker-tau-ten.vercel.app"
     },
     {
-      name: "Gemini Clone 🌠",
-      description:
-        "This is a Google Gemini clone in a dark mode layout built with react.js, tailwind css and Gemini API. It produces basic text with bullet points and italics. ",
-      tags: [
-        {
-          name: "reactjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Gemini API",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: gemini_clone,
-      source_code_link: "https://github.com/HakimM16/gemini_app",
-      web_link: "https://gemini-clone-coral-sigma.vercel.app"
-    },
-    {
       name: "Personal Finance Chatbot 💰",
       description: "This chatbot serves as a personal finance advisor, providing financial advice based on your questions. The application is built using Next.js for the frontend and retrieves responses to prompts via the OpenAI API.",
       tags: [
