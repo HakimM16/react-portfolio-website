@@ -30,12 +30,12 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am an aspiring software engineer and a Computer Science student at Queen Mary University of London. 
-        I am passionate about leveraging technology to address real-world challenges. 
-        I am building a strong foundation in programming, particularly in Python, JavaScript, and Java, while actively 
-        improving my skills in software development and core computer science principles. I am eager to explore new areas 
-        within the tech industry and continuously seek opportunities to deepen my knowledge and practical experience. 
-        I remain open to innovative projects and collaborations that challenge and enhance my skills. 
+         I&apos;m a Computer Science student at Queen Mary University of London, a Computer Science student at Queen Mary University of London,
+          passionate about leveraging technology to solve real-world challenges.
+          Building a strong foundation in programming, particularly in Python, JavaScript and Java,
+          and actively improving my skills in software development and core computer science principles.
+          Eager to explore new areas within tech such as cloud computing, continuously seek opportunities to
+          deepen my knowledge and practical experience, staying open to innovative projects and collaborations that push my skills further.
       </motion.p>
 
       {/* Comment this out for now as you don't any professions yet */}
