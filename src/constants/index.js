@@ -34,9 +34,11 @@ import {
     connect_4,
     crypto_tracker,
     linkedin,
-    gemini_clone,
-    personal_finance
+    personal_finance,
+    banking,
+    machine_learning,
   } from "../assets";
+import { m } from "framer-motion";
   
   export const navLinks = [
     {
@@ -195,6 +197,28 @@ import {
   
   const projects = [
     {
+      name: "Banking App 💳",
+      description:
+        "This project is a banking web app that allows users to manage their finances, view transactions, and analyze spending habits. It's built with Next.js for the frontend and Spring Boot for the backend, featuring a user-friendly interface and secure authentication.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Spring Boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: banking,
+      source_code_link: "https://github.com/HakimM16/banking-app",
+      web_link: "https://banking-app-xi-wheat.vercel.app"
+    },
+    {
       name: "Cost of Living Comparison 💷",
       description:
         "This project is a cost of living comparison web app that lets users input and compare expenses for two cities. It's built with HTML, CSS, and JavaScript for the frontend, and Python (Flask) for the backend, featuring responsive tables and an appealing design. Data for chosen city to compare against is generated from OpenAI",
@@ -217,27 +241,9 @@ import {
       web_link: "https://cost-of-living-project.vercel.app"
     },
     {
-      name: "Connect 4 🕹️",
-      description:
-        "This project is a Connect 4 game where players take turns dropping pieces to connect four in a row. Built with HTML, CSS, and JavaScript, it features a dynamically generated board, winner checks, and result announcements, showcasing web development and game logic skills.",
-      tags: [
-        {
-          name: "HTML & CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-      ],
-      image: connect_4,
-      source_code_link: "https://github.com/HakimM16/connect-4",
-      web_link: "https://connect-4-9ehl.vercel.app"
-    },
-    {
       name: "Crypto Tracker 🪙",
       description:
-        "The Crypto Tracker App is a web application built with React.js that enables users to monitor real-time cryptocurrency prices. Users can navigate through various categories, including market cap, price changes, and 24-hour changes. It utilizes Axios to fetch live and historical data from the CryptoCompare API, while visualizations are created using Chart.js or Recharts. The app features modern, responsive styling with Tailwind CSS or Material-UI, making it a valuable tool for cryptocurrency enthusiasts looking to make informed decisions.",
+        "The Crypto Tracker App is a React.js web application that allows users to monitor real-time cryptocurrency prices. It offers categories like market cap and price changes, fetching data via Axios from the CryptoCompare API. Visualisations are created with Chart.js or Recharts, and it features responsive styling with Tailwind CSS or Material-UI, making it a useful tool for cryptocurrency enthusiasts.",
       tags: [
         {
           name: "reactjs",
@@ -272,6 +278,41 @@ import {
       image: personal_finance,
       source_code_link: "https://github.com/HakimM16/finance-advisor-chatbot",
       web_link: "https://finance-advisor-chatbot.vercel.app"
+    },
+    {
+      name: "Machine Learning Chatbot 🤖",
+      description: "This chatbot serves as a personal finance advisor, providing financial advice based on your questions. The application is built using Next.js for the frontend and retrieves responses to prompts via the OpenAI API.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenAI API",
+          color: "green-text-gradient",
+        }
+      ],
+      image: machine_learning,
+      source_code_link: "https://github.com/HakimM16/machine-learning-chatbot",
+      web_link: "https://machine-learning-chatbot-4y2x.vercel.app"
+    },
+    {
+      name: "Connect 4 🕹️",
+      description:
+        "This project is a Connect 4 game where players take turns dropping pieces to connect four in a row. Built with HTML, CSS, and JavaScript, it features a dynamically generated board, winner checks, and result announcements, showcasing web development and game logic skills.",
+      tags: [
+        {
+          name: "HTML & CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+      ],
+      image: connect_4,
+      source_code_link: "https://github.com/HakimM16/connect-4",
+      web_link: "https://connect-4-9ehl.vercel.app"
     }
   ];
   

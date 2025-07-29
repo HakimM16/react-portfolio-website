@@ -39,8 +39,9 @@ import edge_icon from "./edge_icon.png";
 import connect_4 from "./connect_4.png";
 import crypto_tracker from "./crypto_tracker.png";
 import linkedin from "./Linkedin.jpg";
-import gemini_clone from "./gemini_clone.png";
 import personal_finance from "./personal_finance.png";
+import banking from "./banking_app.png";
+import machine_learning from "./machine_learning.png";
 
 export {
   backend,
@@ -81,6 +82,7 @@ export {
   connect_4,
   crypto_tracker,
   linkedin,
-  gemini_clone,
   personal_finance,
+  banking,
+  machine_learning
 };
