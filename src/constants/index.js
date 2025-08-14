@@ -296,24 +296,24 @@ import { m } from "framer-motion";
       source_code_link: "https://github.com/HakimM16/machine-learning-chatbot",
       web_link: "https://machine-learning-chatbot-4y2x.vercel.app"
     },
-    {
-      name: "Connect 4 🕹️",
-      description:
-        "This project is a Connect 4 game where players take turns dropping pieces to connect four in a row. Built with HTML, CSS, and JavaScript, it features a dynamically generated board, winner checks, and result announcements, showcasing web development and game logic skills.",
-      tags: [
-        {
-          name: "HTML & CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-      ],
-      image: connect_4,
-      source_code_link: "https://github.com/HakimM16/connect-4",
-      web_link: "https://connect-4-9ehl.vercel.app"
-    }
+    // {
+    //   name: "Connect 4 🕹️",
+    //   description:
+    //     "This project is a Connect 4 game where players take turns dropping pieces to connect four in a row. Built with HTML, CSS, and JavaScript, it features a dynamically generated board, winner checks, and result announcements, showcasing web development and game logic skills.",
+    //   tags: [
+    //     {
+    //       name: "HTML & CSS",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: connect_4,
+    //   source_code_link: "https://github.com/HakimM16/connect-4",
+    //   web_link: "https://connect-4-9ehl.vercel.app"
+    // }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

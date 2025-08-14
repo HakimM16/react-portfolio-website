@@ -13,6 +13,25 @@
   color-scheme: dark;
 }
 
+/* Ensure sections are visible on mobile */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure all sections render properly on mobile */
+  section {
+    min-height: auto !important;
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /* Optimize touch interactions */
+  button, a, [role="button"] {
+    touch-action: manipulation;
+  }
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
