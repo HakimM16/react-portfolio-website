@@ -42,6 +42,7 @@ import linkedin from "./Linkedin.jpg";
 import personal_finance from "./personal_finance.png";
 import banking from "./banking_app.png";
 import machine_learning from "./machine_learning.png";
+import job_matcher from "./job_matcher.png";
 
 export {
   backend,
@@ -84,5 +85,6 @@ export {
   linkedin,
   personal_finance,
   banking,
-  machine_learning
+  machine_learning,
+  job_matcher,
 };

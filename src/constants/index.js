@@ -37,6 +37,7 @@ import {
     personal_finance,
     banking,
     machine_learning,
+    job_matcher
   } from "../assets";
 import { m } from "framer-motion";
   
@@ -219,6 +220,27 @@ import { m } from "framer-motion";
       web_link: "https://banking-app-xi-wheat.vercel.app"
     },
     {
+      name: "Job Matcher 🧑‍💼",
+      description:
+        "This project is a job matcher web app that helps users find jobs that match their CV. It's built with Next.js for the frontend and Mistral API for API fetching, featuring a user-friendly interface and secure authentication.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        { name: "Mistral API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: job_matcher,
+      source_code_link: "https://github.com/HakimM16/job_matcher",
+      web_link: "https://job-matcher-bay.vercel.app"
+    },
+    {
       name: "Cost of Living Comparison 💷",
       description:
         "This project is a cost of living comparison web app that lets users input and compare expenses for two cities. It's built with HTML, CSS, and JavaScript for the frontend, and Python (Flask) for the backend, featuring responsive tables and an appealing design. Data for chosen city to compare against is generated from OpenAI",
@@ -296,24 +318,6 @@ import { m } from "framer-motion";
       source_code_link: "https://github.com/HakimM16/machine-learning-chatbot",
       web_link: "https://machine-learning-chatbot-4y2x.vercel.app"
     },
-    // {
-    //   name: "Connect 4 🕹️",
-    //   description:
-    //     "This project is a Connect 4 game where players take turns dropping pieces to connect four in a row. Built with HTML, CSS, and JavaScript, it features a dynamically generated board, winner checks, and result announcements, showcasing web development and game logic skills.",
-    //   tags: [
-    //     {
-    //       name: "HTML & CSS",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       color: "green-text-gradient",
-    //     },
-    //   ],
-    //   image: connect_4,
-    //   source_code_link: "https://github.com/HakimM16/connect-4",
-    //   web_link: "https://connect-4-9ehl.vercel.app"
-    // }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
